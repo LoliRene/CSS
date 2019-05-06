@@ -1,4 +1,6 @@
-a {text-decoration:none;}#so {  display: flex;
+#c1 {
+  font: 10px/15px calibri !important;display: block;text-align: center;letter-spacing:3px;
+}a {text-decoration:none;}#so {  display: flex;
   align-items: center;
   justify-content: center;}#so1 { padding: 25px; background-color: #08AEEA;background-attachment: fixed;float: left;display:flex; }#so2 { border: 1px solid #e0e0e0;width:100px;height:100px;z-index:999;opacity:0.8;background-size:cover;}
 #so0::before {
