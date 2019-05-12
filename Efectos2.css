@@ -1,0 +1,43 @@
+@keyframes mikae1 {
+10% {
+    transform: translate(-1px, 0) rotate(0);
+}
+
+80% {
+    transform: translate(1px, 0) rotate(0);
+}
+}
+
+@keyframes mikae2 {
+10% {
+    transform: scale(1.0,1.0) rotate(3deg);
+}
+
+80% {
+    transform: scale(1.05,1.05) rotate(3deg);
+}
+0%, 100% {
+    transform: scale(1.0,1.0) rotate(3deg);
+}
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
