@@ -1,0 +1,54 @@
+/*CAJA BOCETO 1 O BOTON DE ABRIR*/
+#Staff-Loli {
+ width:100px;
+ height:100px;
+}
+/*CAJA DEL BOCETO 2*/
+#Loli-cont2 {
+    background: COLOR;
+    height: 350px;
+    overflow: hidden;
+    margin: 40px auto 0px;
+    position: relative;
+    width: 350px;
+}
+/*TITULO DEL BOCETO2*/
+#Loli-cont2 h1 {
+ display:block;
+ text-align:center;
+ font-size:18px;
+ border-bottom:1px solid #color;
+ margin: 20px 35px 0px;
+}
+/*IMAGEN DEL BOCETO 2*/
+.LoliImg {
+ margin:0px auto;
+ display:block;
+}
+/*ZONA DE TEXTO DEL BOCETO 2*/
+#Loli-cont2 section {
+ text-align:justify;
+ margin:0px 34px auto;
+ width:280px;
+ font-size:11px;
+ height:150px;
+overflow:auto;
+}
+/*BOTON DE CERRAR*/
+#Loli-Cierra {
+    background: #color;
+    color: #color;
+    width: 100px;
+    margin: 10px auto;
+    text-align: center;
+}
+/*FONDO*/
+#Loli-cont1 {
+ z-index: 999;
+ position: fixed;/*No borrar*/
+ top: 0px;/*No borrar*/
+ left: 0px; /*No borrar*/
+ right: 0px;/*No borrar*/
+ bottom: 0px;/*No borrar*/
+ background: #000000b0;
+ }
