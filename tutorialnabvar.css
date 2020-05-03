@@ -1,3 +1,5 @@
+
+.menu-fixed span.Red-Loli { display:none; }
 /*ETIQUETAS MODIFICABLES*/
 
 /***EDITAR TITULO PRINCIPAL NABVAR***/
@@ -84,7 +86,10 @@ line-height: 20px;
 
 /*ETIQUETAS NO MODIFICABLES SI NO SE POSEE CONOCIMIENTO SOBRE LAS PROPIEDADES*/
 /**LOGO AL DELIZAR*//
-.menu-fixed span.Red-Loli { display:none; }
+
+nav.menu.menu-fixed span.Red-Loli {
+    display: none;
+}
 
 .Nabvar-Loli .Logo-Loli h1, .menu-fixed .Logo-Loli h1 {
   -webkit-transition: all 0.3s ease-in-out;
