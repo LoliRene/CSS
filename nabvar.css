@@ -1,0 +1,118 @@
+.menu-fixed span.Red-Loli { display:none; }
+/*ETIQUETAS MODIFICABLES*/
+
+/***EDITAR TITULO PRINCIPAL NABVAR***/
+.Nabvar-Loli .Logo-Loli h1 {
+    margin: 0px 500px auto;
+    color: #fff;
+    font-size: 35px;
+}
+/**EDITAR CAJA DE ENLACES DE LA BARRA DE NAVEGACIÓN**/
+ul.Nav-Loli {
+    background: #fff;
+}
+/***CAJA DE TITULO PRINCIPAL NABVAR***/
+.Logo-Loli {
+  margin-bottom: -4px;
+  padding: 10px;
+background:#000;
+}
+/*/EDITAR TITULO DEL NABVAR AL VOLVERSE PEQUEÑO Y DESLIZAR*/
+.menu-fixed .Logo-Loli h1 {
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    position: relative;
+    margin: 0px;
+}
+/**DESCRIPCION DEL NABVAR AL DESLIZAR**/
+.menu-fixed .Logo-Loli h1:after {
+  color: #f2eadb;
+  content: 'descripcion del foro';
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 2.5px;
+  text-align: center;
+  float: right;
+  padding-right: 40px;
+  text-transform: uppercase;
+}
+
+/**BARRA DE NAVEGACION ENLACES**/
+.Nav-Loli li a {
+    color: #2d5d94;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    line-height: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+}
+.Nav-Loli li a:hover {background-color:#ddd;}
+.Nav-Loli li ul {display:none;background: #fff;position:absolute;min-width:140px;}
+.Nabvar-Loli li.current-menu-item {background: #ddd;}
+.Nabvar-Loli nav ul li a:hover {background:#2980b9;}
+
+/*EDITAR CAJAR DEL NAVBAR COLOR TAMAÑO*/
+.Nabvar-Loli {
+position: absolute;
+top: 0px;
+left: 0px;
+width: 100%;
+height: 60px;
+background: #000;
+z-index: 999;
+}
+
+/*EDITAR ENLACES DE NBVAR DE REDES SOCIALES*/
+span.Red-Loli a {
+display: block;
+float: right;
+text-shadow: 1px 1px 0 #4788d2, 2px 2px 0 #cadceb;
+background-color: #000000;
+width: 20px;
+height: 20px;
+margin-left: 5px;
+border-radius: 50%;
+font-size: 12px!important;
+color: #fff;
+text-align: center;
+line-height: 20px;
+}
+
+/*ETIQUETAS NO MODIFICABLES SI NO SE POSEE CONOCIMIENTO SOBRE LAS PROPIEDADES*/
+/**LOGO AL DELIZAR*//
+
+nav.menu.menu-fixed span.Red-Loli {
+    display: none;
+}
+
+.Nabvar-Loli .Logo-Loli h1, .menu-fixed .Logo-Loli h1 {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+ul, ol{list-style:none;}
+
+.Nav-Loli > li {float:left;}
+
+.Nav-Loli li:hover > ul {display:block;}.nav li ul li {position:relative;}
+
+.Nav-Loli li ul li ul {right:-140px;top:0px;}
+
+
+span.Red-Loli {position: absolute;right: 60px;top: 20px;}
+
+.Nabvar-Loli nav ul {
+    list-style: none;
+    overflow: hidden;
+    height: 39px;
+}
+
+.menu-fixed {position: fixed;top: 0;width: 100%;z-index: 999;}
